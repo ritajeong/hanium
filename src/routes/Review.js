@@ -1,12 +1,15 @@
 import React from 'react';
-//import { Route, Link } from 'react-router-dom';
-
-
+import styles from './Review.scss';
 
 const Review = () => {
     return (
-        <div>
-         <iframe width="1024" height="768" src="https://app.powerbi.com/view?r=eyJrIjoiOTdjYmRjMzctNzNhZS00YzNjLWE0NGMtZDRmYzBmMDQ3YTUwIiwidCI6ImI1ZmFiNDQxLWZmYTMtNGMzZi1iYTk4LWNiM2MyOTg5ZmNkMCIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+        <div className="review">
+         <iframe title = "reviewPaper"
+         width="1440" 
+         height="900" 
+         src="https://app.powerbi.com/view?r=eyJrIjoiOTdjYmRjMzctNzNhZS00YzNjLWE0NGMtZDRmYzBmMDQ3YTUwIiwidCI6ImI1ZmFiNDQxLWZmYTMtNGMzZi1iYTk4LWNiM2MyOTg5ZmNkMCIsImMiOjEwfQ%3D%3D"
+         frameborder="5" 
+         allowFullScreen="true"></iframe>
         </div>
     );
 };

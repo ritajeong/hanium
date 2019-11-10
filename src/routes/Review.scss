@@ -1,0 +1,11 @@
+.review {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.reviewPaper {
+    width: calc(100% - 10rem);
+    height: calc(100% - 10rem);
+}

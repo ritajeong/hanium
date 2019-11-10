@@ -1,0 +1,14 @@
+.home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.homeImage {
+    display: block;
+    width: auto;
+    max-width: calc(100% - 10rem);
+    max-height: calc(100% - 10rem);
+    transition: all 0.3s ease-in;
+  }
